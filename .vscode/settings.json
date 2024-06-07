@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+      "*.html": "typescript"
+    },
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "typescript.tsserver.experimental.debug": {
+      "inspectOptions": {
+        "host": "127.0.0.1",
+        "port": 9229,
+        "break": false
+      }
+    },
+    "typescript.tsdk": "node_modules/typescript/lib"
+}
